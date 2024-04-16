@@ -7,7 +7,7 @@ public class Ex4 {
 		Book book = new Book(200, "개미");
 		
 		System.out.println(book.toString());
-		System.out.println(); // == book.toString()과 같음
+		System.out.println(book); // == book.toString()과 같음
 		
 		Book book2 = book;
 		System.out.println(book.hashCode());
